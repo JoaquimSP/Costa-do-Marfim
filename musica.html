@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+  <html>
+     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" type="text/css" href="css/estilo.css">
+           <link rel="stylesheet" type="text/css" href="css/all.min.css">
+           <link rel="icon" href="img/bandeira.png">
+
+             <title>Trabalho - Costa do Marfim</title>
+     </head>
+        
+      <body>
+      <!-- MENU AREA -->
+      <div class="topnav">
+            <a href="gastronomia.html">Gastronomia <i class="fas fa-utensils"></i></a>      
+            <a href="musica.html">Música <i class="fas fa-music"></i></a>
+            <a href="personalidades.html">Personalidades <i class="fas fa-user"></i></a>
+            <a href="turismo.html">Turismo <i class="fas fa-suitcase"></i></a>
+            <a href="template.html">Sobre <i class="fa fa-fw fa-search"></i></a>
+          </div>
+         
+      <!-- DANÇA AREA -->
+      <section id="danca">
+        <h1 id="cor1">Dança</h1>
+          <video controls poster="img/pausa.jpg" title="Dança Zouli" id="myVideo2">
+             <source src="video/dance.mp4" type="video/mp4">
+          </video>
+
+              <p id="text">Zaouli é uma dança tradicional do povo Guro, da Costa do Marfim, África Ocidental. A máscara Zaouli, usada na dança, foi criada na década de 1950.
+                 Cada aldeia Guro tem seu próprio dançarino Zaouli (sempre do sexo masculino). A dança é executada durante funerais e celebrações. Acredita-se que ela evoque o aumento da produtividade de uma aldeia já que a dança se originou com os agricultores que se reuniram à noite para dançar depois de um longo dia de trabalho nos campos.</p>
+     </section>
+
+     <HR WIDTH=50%>
+      <br>
+      <br>
+
+      <h2 id="cor1">Músicos</h2>
+
+        <div class="column">
+          <div class="card">
+              <img src="img/music/billy_billy.jpg" id="imgs">
+            <h3>Billy Billy</h3>
+            <p>O rapper Billy Billy usa sua música para denunciar as elites. Sempre com humor e impertinência.</p>
+          </div>
+        </div>
+                    
+      <div class="column">
+          <div class="card">
+              <img src="img/music/daouda.jpg" id="imgs">
+            <h3>Daouda</h3>
+            <p>Daouda, com sua música sentimental cheia de humor, é um artista intemporal.</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <img src="img/music/dobet_gnahore.png" id="imgs">
+            <h3>Dobet Gnahore</h3>
+            <p>É uma cantora, percussionista e dançarina costa-marfinense.</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+              <img src="img/music/fatoumata.jpg" id="imgs">
+            <h3>Fatoumata</h3>
+            <p>É uma Atriz e Cantora que combina popular Wassoulou Africano com Jazz e Soul.</p>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+              <img src="img/music/alpha_blondy.jpg" id="imgs">
+            <h3>Alpha Blondy</h3>
+            <p>Canta reggae principalmente em sua língua nativa dioula, francês e inglês, e às vezes em árabe ou hebraico.</p>
+          </div>
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br>
+        <br>
+        <HR WIDTH=50%>
+
+            	<!-- AUDIO AREA -->
+              <section id="audio">
+                <h1 id="cor1">Apartheid is Nazism - Alpha Blondy</h1>
+                <audio id="myAudio">
+                  <source src="audio/apartheid.mp3" type="audio/mpeg">
+                </audio>
+
+                <div id="botoes">
+                  <button onclick="playAudio()" tile="Play"><i class="fa fa-play"></i></button>
+                  <button onclick="pauseAudio()" tile="Pause"><i class="fas fa-pause"></i></button>			 
+                  <button onclick="loadAudio()" title="Load"><i class="fas fa-stop"></i></button>
+                </div>
+                </section>
+
+         <br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<!-- FOOTER AREA -->
+         <footer id="footer">
+           <p>Desenvolvido por Joaquim Silveira Pinto 2019</p>
+         </footer>
+
+         <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+         <script src="js/jssor.slider-27.5.0.min.js" type="text/javascript"></script>
+         <script src="js/js.js" type ="text/javascript" ></script>
+     </body>
+</html>
